@@ -1,5 +1,5 @@
 ﻿DemoEkzGuseva
-1.0.0.0
+
 
 winexe
 C#
@@ -12,7 +12,7 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\comp0715\Desktop\GitGuseva\DemoekzGus\DemoEkzGuseva\DemoEkzGuseva\App.xaml
 5-1943851355
 
-101830518668
+8768020190
 1941142463650
 MainWindow.xaml;Pages\AddEditClient.xaml;Pages\Authorization.xaml;Pages\ClientsPage.xaml;Pages\ManagerMenu.xaml;
 

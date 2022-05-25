@@ -1,0 +1,49 @@
+﻿<Page x:Class="DemoEkzGuseva.Pages.AddEditClient"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DemoEkzGuseva.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AddEditClient">
+
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="180"/>
+                    <ColumnDefinition Width="180"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Имя: " Grid.Row="0" Grid.Column="0"/>
+                <TextBlock Text="Фамилия: " Grid.Row="1" Grid.Column="0"/>
+                <TextBlock Text="Отчетство: " Grid.Row="2" Grid.Column="0"/>
+                <TextBlock Text="Телефон: " Grid.Row="3" Grid.Column="0"/>
+                <TextBlock Text="Адрес: " Grid.Row="4" Grid.Column="0"/>
+                <TextBlock Text="Номер договора: " Grid.Row="5" Grid.Column="0"/>
+                <TextBlock Text="Дата покупки: " Grid.Row="6" Grid.Column="0"/>
+
+                <TextBox x:Name="txtName" Grid.Row="0" Grid.Column="1"/>
+                <TextBox x:Name="txtLastName" Grid.Row="1" Grid.Column="1"/>
+                <TextBox x:Name="txtPatronymic" Grid.Row="2" Grid.Column="1"/>
+                <TextBox x:Name="txtPhone" Grid.Row="3" Grid.Column="1"/>
+                <TextBox x:Name="txtAddress" Grid.Row="4" Grid.Column="1"/>
+                <TextBox x:Name="txtNumberTreaty" Grid.Row="5" Grid.Column="1"/>
+                <TextBox x:Name="txtDatePurchase" Grid.Row="6" Grid.Column="1"/>
+
+            </Grid>
+            <Button x:Name="BtnSave" Content="Сохранить" Click="BtnSave_Click"/>
+
+        </StackPanel>
+        
+    </Grid>
+</Page>
